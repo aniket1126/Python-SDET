@@ -1,0 +1,6 @@
+file=open('D:/BEBO/Python-SDET/file handling/Book1.csv','r')
+print(file.readline())
+print(file.readline())
+print(file.readline())
+print(file.readline())
+file.close()
