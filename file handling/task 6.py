@@ -1,0 +1,5 @@
+file=open(r'D:\BEBO\Python-SDET\file handling\practice session 20/example.txt','r')
+content=file.read()
+file2=open(r'D:\BEBO\Python-SDET\file handling\practice session 20/destiny.txt','w')
+file2.write(content)
+file.close()
